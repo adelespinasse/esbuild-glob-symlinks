@@ -1,0 +1,14 @@
+{
+  "name": "esbuild-glob-symlinks",
+  "version": "1.0.0",
+  "description": "Bug repro",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild \"src/**/*.ts\" --preserve-symlinks --outdir=dist --out-extension:.js=.js --platform=node"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.25.5"
+  }
+}
